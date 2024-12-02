@@ -30,3 +30,4 @@ To explore the analysis or replicate the process:
 2. Clone the repository:
    ```bash
    git clone <repository_url>
+3. From KeepNote GUI, open the folder

@@ -22,3 +22,11 @@ This analysis was performed for educational and research purposes to better unde
 - **Possible exploits :** Possible exploitation possibilities
 
 ---
+
+## **Setup and Usage**
+To explore the analysis or replicate the process:
+
+1. Download and Install KeepNote
+2. Clone the repository:
+   ```bash
+   git clone <repository_url>

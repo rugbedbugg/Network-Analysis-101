@@ -11,7 +11,7 @@ This analysis was performed for educational and research purposes to better unde
 ---
 
 ## **Disclaimer**
-> **This report and all associated activities were conducted solely on my own private network.**  
+> **This report and all associated activities were conducted solely on my private network/ IP addressess belonging only to me.**  
 > No unauthorized access, scanning, or analysis of any external or third-party networks was performed.  
 
 ---

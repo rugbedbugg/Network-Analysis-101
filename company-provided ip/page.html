@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Company-provided IP</title>
+</head><body>xxx.xxx.xxx.xxx &nbsp; &nbsp; [Target IP]<br/>
+<br/>
+PORT &nbsp; &nbsp; &nbsp; &nbsp;STATE &nbsp; &nbsp;SERVICE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;VERSION<br/>
+135/tcp &nbsp; &nbsp; open &nbsp; &nbsp; &nbsp;msrpc &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Microsoft Windows RPC<br/>
+139/tcp &nbsp; &nbsp; open &nbsp; &nbsp; &nbsp;netbios-ssn &nbsp; &nbsp; &nbsp; Microsoft Windows netbios-ssn<br/>
+445/tcp &nbsp; &nbsp; open &nbsp; &nbsp; microsoft-ds?<br/>
+3306/tcp &nbsp; open &nbsp; &nbsp; mysql &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MySQL (unauthorized)<br/>
+<br/>
+5357/tcp &nbsp; open &nbsp; &nbsp; http &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)<br/>
+|_http-title: Service Unavailable<br/>
+|_http-server-header: Microsoft-HTTPAPI/2.0<br/>
+<br/>
+5432/tcp &nbsp; open &nbsp; &nbsp; &nbsp;postgresql &nbsp; &nbsp; &nbsp; &nbsp;PostgreSQL DB 9.6.0 or later<br/>
+<br/>
+Network Distance: 2 hops<br/>
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows<br/>
+<br/>
+Host script results:<br/>
+| smb2-security-mode: <br/>
+| &nbsp; 3:1:1: <br/>
+|_ &nbsp; &nbsp;Message signing enabled but not required<br/>
+|_clock-skew: -1s<br/>
+| smb2-time: <br/>
+| &nbsp; date: 2024-12-01T23:34:18<br/>
+|_ &nbsp;start_date: N/A<br/>
+<br/>
+TRACEROUTE (using port 3306/tcp)<br/>
+HOP &nbsp;RTT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ADDRESS<br/>
+1 &nbsp; &nbsp; &nbsp; &nbsp;3.72 ms &nbsp; &nbsp;yyy.yyy.yyy.yyy &nbsp; [VMware Ethernet Adapter IP]<br/>
+2 &nbsp; &nbsp; &nbsp; &nbsp;3.77 ms &nbsp; &nbsp;xxx.xxx.xxx.xxx &nbsp; [Target IP]<br/>
+</body></html>

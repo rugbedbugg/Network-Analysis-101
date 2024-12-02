@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Hardware IP scan</string>
+  <key>nodeid</key><string>9c02966d-a0db-47df-88e7-f81a2284b9c1</string>
+  <key>modified_time</key><integer>1733143268</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1733143268</integer>
+  <key>order</key><integer>0</integer>
+</dict>
+</node>

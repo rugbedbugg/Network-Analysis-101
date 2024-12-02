@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mobile Hotspot</title>
+</head><body>xxx.xxx.xxx.xxx [Target IP]<br/>
+<br/>
+PORT &nbsp; &nbsp; &nbsp; STATE &nbsp; &nbsp; SERVICE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; VERSION<br/>
+135/tcp &nbsp; &nbsp; open &nbsp; &nbsp; &nbsp;msrpc &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Microsoft Windows RPC<br/>
+139/tcp &nbsp; &nbsp; open &nbsp; &nbsp; &nbsp;netbios-ssn &nbsp; &nbsp; &nbsp; &nbsp;Microsoft Windows netbios-ssn<br/>
+445/tcp &nbsp; &nbsp;open &nbsp; &nbsp; &nbsp;microsoft-ds?<br/>
+3306/tcp &nbsp;open &nbsp; &nbsp; &nbsp;mysql &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MySQL (unauthorized)<br/>
+<br/>
+Network Distance: 2 hops<br/>
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows<br/>
+<br/>
+Host script results:<br/>
+| smb2-time: <br/>
+| &nbsp; date: 2024-12-01T23:20:00<br/>
+|_ &nbsp;start_date: N/A<br/>
+| smb2-security-mode: <br/>
+| &nbsp; 3:1:1: <br/>
+|_ &nbsp; &nbsp;Message signing enabled but not required<br/>
+<br/>
+TRACEROUTE (using port 139/tcp)<br/>
+HOP &nbsp; RTT &nbsp; &nbsp; &nbsp; ADDRESS<br/>
+1 &nbsp; &nbsp; 0.31 ms &nbsp; &nbsp; yyy.yyy..yyy.yyy [VMware Ethernet Adapter IP]<br/>
+2 &nbsp; &nbsp; 0.38 ms &nbsp; &nbsp;xxx.xxx.xxx.xxx [Target IP]<br/>
+<br/>
+</body></html>
